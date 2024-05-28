@@ -102,10 +102,10 @@ The results will be save in `Con_res/GPT-4V_C.json`.
 |        Rank         |         Teacher         | ConScore[D] |
 | :--------------------: | :---------------------: | :------: |
 | 1 | Qwen-VL-Max |  37.00   |
-|  2  |  GPT-4-Omn  |   35.70   |
+|  2  |  GPT-4-Omni  |   35.70   |
 |  3  |    InternVL-v1.2P-40B    |   34.70   |
 |  4  |    Gemini-Ultra-Vision    |   33.10   |
-|  3  |    InternVL-v1.5-26B    |   31.40   |
+|  5  |    InternVL-v1.5-26B    |   31.40   |
 
 ### ConScore[C]
 
@@ -115,7 +115,7 @@ The results will be save in `Con_res/GPT-4V_C.json`.
 |  2  |  Qwen-VL-Max |   58.4   |
 |  3  |    GPT-4V   |   55.6   |
 |  4  |    Gemini-Ultra-Vision    |   54.6   |
-|  3  |    InternVL-v1.2P-40B   |   53.7   |
+|  5  |    InternVL-v1.2P-40B   |   53.7   |
 
 * The review pipeline
 
