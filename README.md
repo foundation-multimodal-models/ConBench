@@ -1,11 +1,11 @@
 # Unveiling the Tapestry of Consistency in Large Vision-Language Models
 
-:fire: Official implementation of our paper "[Unveiling the Tapestry of Consistency in Large Vision-Language Models](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dXj1WskAAAAJ&citation_for_view=dXj1WskAAAAJ:roLk4NBRz8UC)"
+:fire: Official implementation of our paper: [**Unveiling the Tapestry of Consistency in Large Vision-Language Models**](https://arxiv.org/pdf/2405.14156)
 
-By Yuan Zhang, Fei Xiao, Tao Huang, Chun-Kai Fan, Hongyuan Dong, Jiawen Li, Jiacong Wang, Kuan Cheng, Shanghang Zhang, Haoyuan Guo
+By [Yuan Zhang](https://gumpest.github.io/), Fei Xiao, [Tao Huang](https://taohuang.info/), Chun-Kai Fan, Hongyuan Dong, Jiawen Li, Jiacong Wang, [Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm), [Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm), [Haoyuan Guo](https://scholar.google.com/citations?user=hql67boAAAAJ&hl=en)
 
 <p align='center'>
-<img src='./assests/ConBench.png' alt='mask' width='500px'>
+<img src='./assests/ConBench.png' alt='mask' width='400px'>
 </p>
 
 ## Preparation
@@ -28,7 +28,7 @@ pip install openai
 
 ### ConBench Dataset
 
-Download on [ConBench](https://huggingface.co/datasets/ConBench/ConBench)
+Download on [Huggingface](https://huggingface.co/datasets/ConBench/ConBench)
 
 ## Usage
 
@@ -131,7 +131,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 ## Citation
 
 If you use ConBench in your research, please cite our work by using the following BibTeX entry:
-```
+```bibtex
 @article{zhang2024unveiling,
   title={Unveiling the Tapestry of Consistency in Large Vision-Language Models},
   author={Zhang, Yuan and Xiao, Fei and Huang, Tao and Fan, Chun-Kai and Dong, Hongyuan and Li, Jiawen and Wang, Jiacong and Cheng, Kuan and Zhang, Shanghang and Guo, Haoyuan},
