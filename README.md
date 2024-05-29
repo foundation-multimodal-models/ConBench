@@ -1,6 +1,6 @@
 # Unveiling the Tapestry of Consistency in Large Vision-Language Models
 
-:fire: Official implementation of our paper: [**Unveiling the Tapestry of Consistency in Large Vision-Language Models**](https://arxiv.org/pdf/2405.14156)
+:fire: Official implementation of paper: [**Unveiling the Tapestry of Consistency in Large Vision-Language Models**](https://arxiv.org/pdf/2405.14156)
 
 By [Yuan Zhang](https://gumpest.github.io/), Fei Xiao, [Tao Huang](https://taohuang.info/), Chun-Kai Fan, Hongyuan Dong, Jiawen Li, Jiacong Wang, [Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm), [Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm), [Haoyuan Guo](https://scholar.google.com/citations?user=hql67boAAAAJ&hl=en)
 
