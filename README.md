@@ -1,12 +1,67 @@
-# Unveiling the Tapestry of Consistency in Large Vision-Language Models
 
-:fire: Official implementation of paper: [**Unveiling the Tapestry of Consistency in Large Vision-Language Models**](https://arxiv.org/pdf/2405.14156)
+<div align="center">
 
-By [Yuan Zhang](https://gumpest.github.io/), Fei Xiao, [Tao Huang](https://taohuang.info/), Chun-Kai Fan, Hongyuan Dong, Jiawen Li, Jiacong Wang, [Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm), [Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm), [Haoyuan Guo](https://scholar.google.com/citations?user=hql67boAAAAJ&hl=en)
+<h1> Unveiling the Tapestry of Consistency in Large Vision-Language Models </h1>
+
+
+<h5 align="center"> 
+
+<a href='https://arxiv.org/abs/2405.14156'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://huggingface.co/datasets/ConBench/ConBenchPar'><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>
+
+
+[Yuan Zhang](https://gumpest.github.io/)<sup>1,2</sup>,
+[Fei Xiao](https://github.com/foundation-multimodal-models)<sup>1</sup>,
+[Tao Huang](https://taohuang.info/)<sup>3</sup>,
+[Chun-Kai Fan]()<sup>2</sup>,
+[Hongyuan Dong]()<sup>1</sup>,
+
+
+[Jiawen Li]()<sup>1</sup>,
+[Jiacong Wang]()<sup>1,4</sup>,
+[Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm)<sup>2</sup>,
+[Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm)<sup>2</sup>,
+[Haoyuan Guo](https://scholar.google.com/citations?user=hql67boAAAAJ&hl=en)<sup>1*✉️</sup>
+
+
+<sup>1</sup>ByteDance Inc, <sup>2</sup>School of Computer Science, Peking University, 
+
+<sup>3</sup>The University of Sydney, <sup>4</sup>School of Artificial Intelligence, Chinese Academy of Sciences
+
+</h5>
+</div>
+
+***
+
+## News 
+- [x] **[2024/05/24]** We relase **ConBench** in [arXiv](https://arxiv.org/abs/2405.14156)! The code and dataset are now open source!
+
 
 <p align='center'>
-<img src='./assests/ConBench.png' alt='mask' width='400px'>
+<img src='./assests/ConBench.png' alt='mask' width='380px'>
 </p>
+
+
+## Contents
+- [News](#news)
+- [Contents](#contents)
+- [Overview](#overview)
+- [Preparation](#preparation)
+- [Leaderboard](#leaderboard)
+- [Citation](#citation)
+- [Acknowledgment](#acknowledgment)
+
+## Overview
+
+When faced with prompts in different sizes of solution spaces, Large vision-language models (LVLMs) fail to always give consistent answers regarding the same knowledge point. This **inconsistency** of answers between different solution spaces is prevalent in LVLMs and erodes trust. To this end, we provide a multi-modal benchmark ConBench, to intuitively analyze how LVLMs perform when the solution space of a prompt revolves around a knowledge point.
+<div align=center>
+<img width="600" alt="image" src="./assests/overview.png">
+</div>
+
+Based on the ConBench tool, we are the first to reveal the tapestry and get the following findings: (1) In the discriminate realm, the larger the solution space of the prompt, the lower the accuracy of the answers. (2) Establish the relationship between the discriminative and generative realms: the accuracy of the discriminative question type exhibits a strong positive correlation with its Consistency with the caption. (3) Compared to open-source models, closed-source models exhibit a pronounced bias advantage in terms of Consistency. 
+<div align=center>
+<img width="600" alt="image" src="./assests/analysis.png">
+</div>
 
 ## Preparation
 
@@ -139,3 +194,6 @@ If you use ConBench in your research, please cite our work by using the followin
   year={2024}
 }
 ```
+## Acknowledgment
+
+We extend our gratitude to the open-source efforts of [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models), [MMBench](https://github.com/open-compass/MMBench), [MMMU](https://mmmu-benchmark.github.io/) and [SEEDBench](https://github.com/AILab-CVC/SEED-Bench).
