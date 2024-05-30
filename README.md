@@ -26,7 +26,7 @@
 
 <sup>1</sup>ByteDance Inc, <sup>2</sup>School of Computer Science, Peking University, 
 
-<sup>3</sup>The University of Sydney, <sup>4</sup>School of Artificial Intelligence, Chinese Academy of Sciences
+<sup>3</sup>The University of Sydney, <sup>4</sup>School of Artificial Intelligence, University of Chinese Academy of Sciences
 
 </h5>
 </div>
