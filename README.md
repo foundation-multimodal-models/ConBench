@@ -34,7 +34,8 @@
 ***
 
 ## News 
-- [x] **[2024/05/24]** We relase **ConBench** in [arXiv](https://arxiv.org/abs/2405.14156)! The code and dataset are now open source!
+- [x] **[2024/06/06]** We merged **ConBench** into LLaVA official [Evaluation Suite](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/conbench)!
+- [x] **[2024/05/24]** We relased **ConBench** in [arXiv](https://arxiv.org/abs/2405.14156)! The code and dataset are now open source!
 
 
 <p align='center'>
@@ -91,9 +92,9 @@ Download on [Huggingface](https://huggingface.co/datasets/ConBench/ConBench)
 
 The model outputs answers based on the image and propmpt and stores them in format of txt.
 
-Example for evaluating GPT-4V result in  [GPT-4V.py](https://github.com/open-mmlab/mmrazor)
+Example for evaluating GPT-4V result in [GPT-4V.py](https://github.com/foundation-multimodal-models/ConBench/blob/main/eval/GPT_4V.py)
 
-Example for evaluating LLaVA-NEXT-34B result in  [LLaVA-NEXT-34B.py](https://github.com/open-mmlab/mmrazor)
+Example for evaluating LLaVA-series result in [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
 The results should be listed like this:
 
@@ -135,6 +136,12 @@ python3 Score.py --results_dir ./Res/GPT-4V --Score_D
 
 The results will be save in `Con_res/GPT-4V_D.json`.
 
+> [!Note]
+> Besides, we provide the evaluation in [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+
+```shell
+python3 -m accelerate.commands.launch --main_process_port 10096 --num_processes=1 lmms_eval --model llava --model_args pretrained="liuhaotian/llava-v1.5-7b" --tasks ConBench --batch_size 1 --log_samples --log_samples_suffix llava_v1.5_conbench --output_path ./logs/
+```
 ### Evaluation on ConScore[C]
 
 ```shell
