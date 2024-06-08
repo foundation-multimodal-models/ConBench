@@ -31,11 +31,10 @@
 </h5>
 </div>
 
-***
 
-## News 
-- [x] **[2024/06/06]** We merged **ConBench** into LLaVA official [Evaluation Suite](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/conbench)!
-- [x] **[2024/05/24]** We relased **ConBench** in [arXiv](https://arxiv.org/abs/2405.14156)! The code and dataset are now open source!
+## 📜 News 
+- [x] 🔥 **[2024/06/06]** We merged **ConBench** into LLaVA official [Evaluation Suite](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/conbench)!
+- [x] 🔥 **[2024/05/24]** We relased **ConBench** in [arXiv](https://arxiv.org/abs/2405.14156)! The code and dataset are now open source!
 
 
 <p align='center'>
@@ -43,7 +42,7 @@
 </p>
 
 
-## Contents
+## ✒️ Contents
 - [News](#news)
 - [Contents](#contents)
 - [Overview](#overview)
@@ -52,7 +51,7 @@
 - [Citation](#citation)
 - [Acknowledgment](#acknowledgment)
 
-## Overview
+## 👀 Overview
 
 When faced with prompts in different sizes of solution spaces, Large vision-language models (LVLMs) fail to always give consistent answers regarding the same knowledge point. This **inconsistency** of answers between different solution spaces is prevalent in LVLMs and erodes trust. To this end, we provide a multi-modal benchmark ConBench, to intuitively analyze how LVLMs perform when the solution space of a prompt revolves around a knowledge point.
 <div align=center>
@@ -64,7 +63,7 @@ Based on the ConBench tool, we are the first to reveal the tapestry and get the 
 <img width="600" alt="image" src="./assests/analysis.png">
 </div>
 
-## Preparation
+## 👨‍💻 Preparation
 
 ### Install ANLS
 
@@ -86,7 +85,7 @@ pip install openai
 
 Download on [Huggingface](https://huggingface.co/datasets/ConBench/ConBench)
 
-## Usage
+## 🎯 Usage
 
 ### Get Model Responses
 
@@ -157,7 +156,7 @@ python3 Score.py --results_dir ./Res/GPT-4V
 The results will be save in `Con_res/GPT-4V_C.json`.
 
 
-## Leaderboard
+## 🏆 Leaderboard
 
 ### ConScore[D]
 
