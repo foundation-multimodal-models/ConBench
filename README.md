@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1> Unveiling the Tapestry of Consistency in Large Vision-Language Models, NeurIPS 2024 </h1>
+<h1> Unveiling the Tapestry of Consistency in Large Vision-Language Models </h1>
 
 
 <h5 align="center"> 
@@ -33,6 +33,7 @@
 
 
 ## 📜 News 
+- [x] 🔥 **[2024/09/28]** Our **ConBench** is accepted by NeurIPS 2024 main track!
 - [x] 🔥 **[2024/06/06]** We merged **ConBench** into LLaVA official [Evaluation Suite](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/conbench)!
 - [x] 🔥 **[2024/05/24]** We relased **ConBench** in [arXiv](https://arxiv.org/abs/2405.14156)! The code and dataset are now open source!
 
