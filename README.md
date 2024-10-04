@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1> Unveiling the Tapestry of Consistency in Large Vision-Language Models </h1>
+<h1> Unveiling the Tapestry of Consistency in Large Vision-Language Models (NeurIPS 2024) </h1>
 
 
 <h5 align="center"> 
