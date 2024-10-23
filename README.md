@@ -20,8 +20,8 @@
 [Jiawen Li]()<sup>1</sup>,
 [Jiacong Wang]()<sup>1,4</sup>,
 [Kuan Cheng](https://cfcs.pku.edu.cn/people/faculty/kuancheng/index.htm)<sup>2</sup>,
-[Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm)<sup>2</sup>,
-[Haoyuan Guo](https://scholar.google.com/citations?user=hql67boAAAAJ&hl=en)<sup>1*✉️</sup>
+[Shanghang Zhang](https://idm.pku.edu.cn/info/1017/1598.htm)<sup>2✉️</sup>,
+[Haoyuan Guo](https://scholar.google.com/citations?user=hql67boAAAAJ&hl=en)<sup>1✉️</sup>
 
 
 <sup>1</sup>ByteDance Inc, <sup>2</sup>School of Computer Science, Peking University, 
